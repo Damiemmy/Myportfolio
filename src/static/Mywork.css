@@ -1,0 +1,116 @@
+.mywork{
+    display:flex;
+    width:100%;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+
+}
+.mywork-title{
+    display:flex;
+    position:relative;
+    width:100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+
+}
+.mywork-title img{
+    position:absolute;
+    height: 50px;
+    width:50px;
+    bottom:20;
+    left: 300px;
+    z-index: -1;
+    
+}
+
+.mywork-container{
+    display:grid;
+    width: 1000px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:10px;
+
+}
+@media (max-width:900px) {
+    .mywork-container{
+        width:100%;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.mywork-format img{
+    width:300px;
+    height: 200px;
+    object-fit: cover;
+    border:2px solid #DF8908;
+    transition:0.5s;
+    
+
+}
+@media (max-width:700px) {
+    .mywork-format{
+        height:150px;
+    }
+    
+}
+.mywork-format img:hover{
+    transform:scale(1.08);
+    transition: 0.5s;
+    border:2px solid  #B415FF;
+}
+.mywork-format{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.showmore-format{
+    display:flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    margin:30px 0px;
+}
+.mywork-showmore{ 
+    display: flex;
+    gap:5px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    padding:4px 8px;
+    border:2px solid white;
+    color:white;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: black;
+    transition: 0.6s;
+    
+}
+.mywork-showmore:hover{
+    transform:scale(1.04);
+    background:linear-gradient(47deg,#DF8908 -5.09%,#B415FF 106.28%);
+    border:2px solid #B415FF
+}
+.mywork-title h1{
+    display: flex;
+    font-size: 50px;
+    font-weight:600;
+    justify-content:start;
+    align-items:start ;
+    margin:30px 0px;
+    width:100%;
+  
+}
+@media (max-width:700px) {
+    .mywork-title h1{
+        justify-content: center;
+        align-items: center;
+}
+    
+}

@@ -1,0 +1,5 @@
+PORTFORLIO SITE 1
+background-color,height and color:#1161513;,100vh,white
+background(on buttons/div-buttons):linear-gradient(267deg,#DA7C25 0.36%,#B923E1 102.06%);
+font-size:20px;
+padding and margin:0px;
