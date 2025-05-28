@@ -16,7 +16,7 @@ const About = () => {
             </div>
             <div className="about-right">
                 <div className="about-para">
-                    <p>i am an Experience Frontend Developer with over a decade of professional experience</p>
+                    <p>I am an Experience Frontend Developer with over 3 years of professional experience</p>
                     <p>My passion for Frontend is not Only</p>
                 </div>
                 <div className="about-skills">
@@ -37,17 +37,17 @@ const About = () => {
         </div>
     <div className="about-achievements">
         <div className="achievement">
-            <h1>10+</h1>
+            <h1>3+</h1>
             <p>YEARS OF EXPERIENCE</p>
         </div>
         <div className='slash'></div>
         <div className="achievement">
-            <h1>90+</h1>
+            <h1>15+</h1>
             <p>PROJECTS COMPLETED</p>
         </div>
         <div className='slash'></div>
         <div className="achievement">
-            <h1>15+</h1>
+            <h1>25+</h1>
             <p> HAPPY CLIENT</p>
         </div>
 

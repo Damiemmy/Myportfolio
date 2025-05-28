@@ -39,7 +39,7 @@ const Contact = () => {
             <div className="p-2 w-full flex flex-col items-start gap-4">
                 <h1 style={{ background: 'linear-gradient(47deg, #DF8908 -5.09%, #B415FF 106.28%)', WebkitBackgroundClip: 'text',
                 WebkitTextFillColor: 'transparent', }} className='text-white text-3xl font-bold'>Let's talk</h1>
-                <p className='text-left'>i am currently avaliable to take on new projects,so feel free to contact me about anything that you want me to work on.YOu can Contact anytime.</p>
+                <p className='text-left'>I am currently avaliable to take on new projects,so feel free to contact me about anything that you want me to work on.YOu can Contact anytime.</p>
                 <div className="flex flex-col gap-5 mb-10">
                     <div className="flex gap-2 items-center">
                         <FaEnvelope/><p>damisaemmanuel778@gmail.com</p>
@@ -60,7 +60,7 @@ const Contact = () => {
                     <input type='email' className='border-none text-[#0f0f0f]  bg-[#a59f9f] rounded-md px-2 py-3' placeholder="Enter your Email" name='email'/>
                     <label className='text-[#daddda] text-[18px]' htmlFor="">Write your message here</label>
                     <textarea name='message' className='border-none h-30 text-[#0f0f0f] bg-[#a59f9f] rounded-md px-2 py-3' rows='8' placeholder="Enter your message"></textarea>
-                    <button style={{background:'linear-gradient(270deg,#DF8908 -5.09%, #B415FF 106.28%'}} type="submit" className="border py-2 w-[35%] px-3 text-md my-3 text-white rounded-md">Submit now</button>
+                    <button style={{background:'linear-gradient(270deg,#DF8908 -5.09%, #B415FF 106.28%'}} type="submit" className="border py-2 md:w-[35%] md:px-3 px-1 w-[45%] text-md my-3 text-white rounded-md">Submit now</button>
                 </form>
         </div>
     </div>
