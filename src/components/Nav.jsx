@@ -7,10 +7,10 @@ import { AiOutlineClose } from 'react-icons/ai'
 const Nav = () => {
   const [openmenu,setOpenmenu]=useState(false)
   return (
-    <div className='w-full items-center relative justify-center h-20 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64'>
+    <div className=' w-full items-center relative justify-center h-20 px-4 md:px-8 lg:px-16 xl:px-32 2xl:px-64'>
         <div className='w-full flex justify-between items-center'>
             <img  className=' flex h-10 w-40' src={image} alt='no image'/>
-            <ul className=" hidden md:flex">
+            <ul className="md:gap-3 lg:gap-5 hidden md:flex">
                 <li>Home</li>
                 <li>About Me</li>
                 <li>Services</li>
