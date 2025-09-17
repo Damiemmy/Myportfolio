@@ -42,8 +42,8 @@
     }
 }
 .mywork-format img{
-    width:300px;
-    height: 200px;
+    width:250px;
+    height: 150px;
     object-fit: cover;
     border:2px solid #DF8908;
     transition:0.5s;

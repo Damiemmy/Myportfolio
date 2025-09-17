@@ -66,8 +66,8 @@ const Mywork = () => {
             <h1>My latest work </h1>
             <img src={image} alt='no image'/>
         </div>
-        <h1 className='text-3xl pb-5'>Full-Stack(Django/React/Django RestFramework)</h1>
-        <div className="mywork-container mb-5">
+        <h1 className='text-3xl mb-10'>Full Stack (Django/React)</h1>
+        <div className="mywork-container mb-15">
             {FullStackList.map((work)=>(
                 <a href={work.link}>
                     <div className='mywork-format' key={work.id}>
@@ -78,11 +78,11 @@ const Mywork = () => {
                 
             ))}
         </div>
-        <h1 className='text-3xl pb-5'>React Components(Projects)</h1>
-        <div className="mywork-container">
+        <h1 className='text-3xl mb-10'>React Components(Projects)</h1>
+        <div className="mywork-container mb-15">
             {ReactComponents.map((work)=>(
                 <a href={work.link}>
-                    <div className='mywork-format' key={work.id}>
+                    <div className='mywork-format mb-10' key={work.id}>
                         <img className="mb-3" src={work.img}/>
                         <h1>{work.name}</h1>
                     </div>
@@ -90,8 +90,8 @@ const Mywork = () => {
                 
             ))}
         </div>
-        <h1 className='text-3xl pb-5'>RestFul Api's(Django)</h1>
-        <div className="mywork-container">
+        <h1 className='text-3xl mb-10'>RestFul Api's(Django)</h1>
+        <div className="mywork-container mb-15">
             {ApiEndpoint.map((work)=>(
                 <a href={work.link}>
                     <div className='mywork-format' key={work.id}>
