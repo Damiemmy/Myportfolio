@@ -1,60 +1,104 @@
 import '../static/Mywork.css'
 import React from 'react'
 import image from '../assets/aboutlogo.png'
-import mywork1 from "../assets/ecommerce/ecommerce1.jpg"
-import mywork2 from "../assets/ecommerce/ecommerce2.jpg"
-import mywork3 from "../assets/ecommerce/ecommerce3.jpg"
-import mywork4 from "../assets/ecommerce/ecommerce4.jpg"
-import mywork5 from "../assets/ecommerce/ecommerce5.jpg"
-import mywork6 from "../assets/ecommerce/ecommerce6.jpg"
+import mywork1 from "../assets/ecommerce/Buyit.jpg"
+import mywork2 from "../assets/ecommerce/Blog.jpg"
+import mywork3 from "../assets/ecommerce/color.jpg"
+import mywork4 from "../assets/ecommerce/accordian.jpg"
+import mywork5 from "../assets/ecommerce/star-rating.jpg"
+import mywork6 from "../assets/ecommerce/Calculator.jpg"
+import mywork7 from "../assets/ecommerce/EcommerceApi.jpg"
 import { FaArrowRight } from 'react-icons/fa'
 
 const Mywork = () => {
-    const MyworkList=[
+    const FullStackList=[
         {
             "id":1,
-            "name":"Web Design",
-            "img":mywork1
+            "name":"Ecommerce Site",
+            "img":mywork1,
+            "link":'https://buyit-wymc.onrender.com/'
         },
         {
             "id":2,
-            "name":"Web Design",
-            "img":mywork2
+            "name":"Blog Site",
+            "img":mywork2,
+            "link":'https://damiemmy.github.io/DAMISAPROJECT1-ACCORDIAN-/'
+        },
+    ]
+    const ReactComponents=[
+        {
+            "id":1,
+            "name":"Color Generator",
+            "img":mywork3,
+            "link":'https://damiemmy.github.io/COLORGENERATOR/'
+        },
+        {
+            "id":2,
+            "name":"Blog Accordian",
+            "img":mywork4,
+            "link":'https://damiemmy.github.io/DAMISAPROJECT1-ACCORDIAN-/'
         },
         {
             "id":3,
-            "name":"Web Design",
-            "img":mywork3
+            "name":"Star Rating",
+            "img":mywork5,
+            "link":'https://damiemmy.github.io/DAMISAPROJECT-STAR-RATING-/'
         },
         {
             "id":4,
-            "name":"Web Design",
-            "img":mywork4
+            "name":"Calculator",
+            "img":mywork6,
+            "link":'https://damiemmy.github.io/Calculator/'
         },
+    ]
+    const ApiEndpoint=[
         {
-            "id":5,
-            "name":"Web Design",
-            "img":mywork5
+            "id":1,
+            "name":"Ecommerce Api Endpoints",
+            "img":mywork7,
+            "link":'https://backend-ecommerce-store-1.onrender.com/'
         },
-        {
-            "id":6,
-            "name":"Web Design",
-            "img":mywork6
-        }
-       
+
     ]
   return (
     <div className='mywork'>
         <div className="mywork-title">
-            <h1>My latest work</h1>
+            <h1>My latest work </h1>
             <img src={image} alt='no image'/>
         </div>
+        <h1 className='text-3xl pb-5'>Full-Stack(Django/React/Django RestFramework)</h1>
+        <div className="mywork-container mb-5">
+            {FullStackList.map((work)=>(
+                <a href={work.link}>
+                    <div className='mywork-format' key={work.id}>
+                        <img className="mb-3" src={work.img}/>
+                        <h1>{work.name}</h1>
+                    </div>
+                </a>
+                
+            ))}
+        </div>
+        <h1 className='text-3xl pb-5'>React Components(Projects)</h1>
         <div className="mywork-container">
-            {MyworkList.map((work)=>(
-                <div className='mywork-format' key={work.id}>
-                    <h1>{work.name}</h1>
-                    <img src={work.img}/>
-                </div>
+            {ReactComponents.map((work)=>(
+                <a href={work.link}>
+                    <div className='mywork-format' key={work.id}>
+                        <img className="mb-3" src={work.img}/>
+                        <h1>{work.name}</h1>
+                    </div>
+                </a>
+                
+            ))}
+        </div>
+        <h1 className='text-3xl pb-5'>RestFul Api's(Django)</h1>
+        <div className="mywork-container">
+            {ApiEndpoint.map((work)=>(
+                <a href={work.link}>
+                    <div className='mywork-format' key={work.id}>
+                        <img className="mb-3" src={work.img}/>
+                        <h1>{work.name}</h1>
+                    </div>
+                </a>
                 
             ))}
         </div>

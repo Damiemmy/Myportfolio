@@ -8,7 +8,7 @@ import Myservices from './components/Myservices'
 import Mywork from './components/Mywork'
 import Contact from './components/contact'
 
-
+const Technologies={FullStack:'Python/Django',Backend:'Backend'}
 
 function App() {
   return (
@@ -16,8 +16,8 @@ function App() {
       <Nav/>
       <Hero/>
       <About/>
-      <Myservices/>
-      <Mywork/>
+      <Myservices />
+      <Mywork />
       <Contact/>
       hello
     </div>
