@@ -1,13 +1,14 @@
 import '../static/Mywork.css'
 import React from 'react'
 import image from '../assets/aboutlogo.png'
-import mywork1 from "../assets/ecommerce/Buyit.jpg"
-import mywork2 from "../assets/ecommerce/Blog.jpg"
-import mywork3 from "../assets/ecommerce/color.jpg"
-import mywork4 from "../assets/ecommerce/accordian.jpg"
-import mywork5 from "../assets/ecommerce/star-rating.jpg"
-import mywork6 from "../assets/ecommerce/Calculator.jpg"
-import mywork7 from "../assets/ecommerce/EcommerceApi.jpg"
+import mywork1 from "../assets/images/Buyit.jpg"
+import mywork2 from "../assets/images/Blog.jpg"
+import mywork3 from "../assets/images/color.jpg"
+import mywork4 from "../assets/images/accordian.jpg"
+import mywork5 from "../assets/images/star-rating.jpg"
+import mywork6 from "../assets/images/Calculator.jpg"
+import mywork7 from "../assets/images/EcommerceApi.jpg"
+import mywork8 from "../assets/images/BlogApi.jpg"
 import { FaArrowRight } from 'react-icons/fa'
 
 const Mywork = () => {
@@ -22,7 +23,7 @@ const Mywork = () => {
             "id":2,
             "name":"Blog Site",
             "img":mywork2,
-            "link":'https://damiemmy.github.io/DAMISAPROJECT1-ACCORDIAN-/'
+            "link":'https://new9ja.onrender.com'
         },
     ]
     const ReactComponents=[
@@ -57,6 +58,12 @@ const Mywork = () => {
             "name":"Ecommerce Api Endpoints",
             "img":mywork7,
             "link":'https://backend-ecommerce-store-1.onrender.com/'
+        },
+        {
+            "id":2,
+            "name":"Blog9ja Api Endpoints",
+            "img":mywork8,
+            "link":'https://backend-blog-app-8cul.onrender.com'
         },
 
     ]
