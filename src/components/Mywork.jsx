@@ -1,7 +1,7 @@
 import '../static/Mywork.css'
 import React from 'react'
 import image from '../assets/aboutlogo.png'
-import mywork1 from "../assets/images/Buyit.jpg"
+import mywork1 from "../assets/images/portfolio-img.jpg"
 import mywork2 from "../assets/images/Blog.jpg"
 import mywork3 from "../assets/images/color.jpg"
 import mywork4 from "../assets/images/accordian.jpg"
